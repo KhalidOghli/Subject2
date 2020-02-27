@@ -14,6 +14,15 @@
      display:flex;
       flex-wrap:wrap;
   }
+  .container-menu {
+      max-width: 95%;
+      display: block;
+      margin: 0 auto;
+  }
+  .container-menu h2{
+    text-align: center;
+    margin: 30px 0;
+  }
   .container {
   display:inline-block;
     width:calc(95% / 3);  
@@ -28,7 +37,8 @@
       display:inline-block;
     padding:5px 30px;
     float:right;
-    
+    font-weight: bold;
+    font-family: cursive;
   }
   .clearfix {
     clear:both;
@@ -36,6 +46,25 @@
   
   p{
     padding:20px;
+  }
+  .t1{
+    color: #000;
+    background-color: lightcoral;
+    border: 1px solid #222;
+
+  }
+  .t3 {
+    color: #000;
+    background-color: khaki;
+    border: 1px solid #222;
+
+  }
+  .t2 {
+    color: #fff;
+    background-color: crimson;
+    border: 1px solid #222;
+
+
   }
   .gradient-purple-sub{
       background-color: #2b1331 !important;
